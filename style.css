@@ -1,0 +1,108 @@
+body {
+  
+  padding-top: 40px;
+   color: #131313;
+  cursor: default;
+  user-select: none;
+  flex-direction: column;
+  padding: 2em;
+  display: flex;
+  /* justify-content: center; */
+  min-height: 100vh;
+  background-image: conic-gradient(
+      rgb(255, 255, 255, 0.7) 36deg,
+      rgb(203, 95, 99, 0.8) 36deg,
+      rgb(203, 95, 99, 0.8) 108deg,
+      rgb(87, 178, 121, 0.8) 108deg,
+      rgb(7, 178, 121, 0.8) 180deg,
+      rgb(240, 183, 91, 0.8) 180deg,
+      rgb(240, 183, 91, 0.8) 252deg,
+      rgb(87, 178, 221, 0.8) 252deg,
+      rgb(87, 178, 221, 0.8) 324deg,
+      rgb(255, 255, 255, 0.7) 324deg
+    ),
+    url("https://gtimg.tokyo2020.org/image/private/f_auto,t_article-lead-image-ultrawide/production/u4vszytlwxuspn7jnrwp");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  gap: 1em;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.header{
+  
+  height: 360px;
+    z-index: 10;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+#titulo{
+  
+}
+#gold {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#silver {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#bronze {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.margin {
+  padding-top: 50px;
+}
+
+.medal-bg {
+  background-color: #dbb658;
+  border-radius: 100%;
+  width: 150px;
+  height: 140px;
+  margin-bottom: 5px;
+}
+
+.medal-bg-1 {
+  background-color: #bbbbbb;
+  border-radius: 100%;
+  width: 150px;
+  height: 140px;
+  margin-bottom: 5px;
+}
+
+.medal-bg-2 {
+  background-color: #aa552a;
+  border-radius: 100%;
+  width: 150px;
+  height: 140px;
+  margin-bottom: 5px;
+}
+.spacer{
+  padding-top:50px;
+}
+
+
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
