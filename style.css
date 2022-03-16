@@ -1,11 +1,8 @@
 body {
-  
-  padding-top: 40px;
    color: #131313;
   cursor: default;
   user-select: none;
   flex-direction: column;
-  padding: 2em;
   display: flex;
   /* justify-content: center; */
   min-height: 100vh;
@@ -44,9 +41,7 @@ body {
   left: 0;
   width: 100%
 }
-#titulo{
-  
-}
+
 #gold {
   color: #fff;
   font-size: 90px;
@@ -96,7 +91,29 @@ body {
   padding-top:50px;
 }
 
+.flags-wrapper {
+  overflow-y: scroll;
+}
 
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 40vh 60vh;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-color: black;
+}
+
+a{
+  color: #fff;
+}
+
+p{
+  color: #fff;
+}
 
 @keyframes animStar {
   from {
